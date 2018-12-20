@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Task extends Model
 {
     protected $fillable = [
-        'name', 'is_archived', 'project_id'
+        'name', 'is_archived', 'project_id', 'is_finished'
     ];
 
     /**
